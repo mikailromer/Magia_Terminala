@@ -1,0 +1,37 @@
+ 1957  git status
+ 1958  git add kopia/
+ 1959  git commit -m "Create kopia folder, containing copy.txt file with saved the list of processes."
+ 1960  git add processes.txt 
+ 1961  git commit -m "Save the list of processes in the processes.txt file. Wrote a line into the processes.txt file, informing about the number of lines, which were saved in the file, using ps aux command. Save in the processes.txt file, output of used grep command."
+ 1962  git status
+ 1963  history
+ 1964  history -h
+ 1965  man history
+ 1966  history --help
+ 1967  history | tail 2
+ 1968  history | tail 
+ 1969  history 25
+ 1970  history 40
+ 1971  history 50
+ 1972  tail history
+ 1973  history | tail -n 50
+ 1974  echo -en '\n' >> processes | history | tail -n 50 >> processes.txt 
+ 1977  git status
+ 1980  git status
+ 1981  git reset 
+ 1982  git status
+ 1983  git reset processes.txt
+ 1985  git reset --hard
+ 1986  git status
+ 1988  history  tail -n 50 | grep ps -aux | grep /bin | grep history  >> commands.txt 
+ 1990* history | tail -n 50 | grep ps -aux
+ 1992  history  tail -n 50 | grep ps -aux  >> commands.txt 
+ 1993  history  tail -n 50 >> commands.txt 
+ 1994* history  tail 50 | grep ps -aux | grep /bin | grep histor
+ 1995  history | tail -n 50 >> commands.txt 
+ 1997  history | tail -n 50 | grep cat > commands.txt 
+ 1999  history | tail -n 50 | grep ps -aux > commands.txt 
+ 2001  history | tail -n 50 | grep 'ps -aux' > commands.txt 
+ 2003  history | tail -n 50 | grep 'ps aux' | grep 'history' | grep 'mkdir' | grep 'git' | grep 'grep' | grep '/bin' > commands.txt 
+ 2005  history | tail -n 50 | grep 'ps aux' | grep 'history' | grep 'mkdir' 'git' > commands.txt 
+ 2006  history | tail -n 50 | grep -w 'ps aux\|history\|mkdir\|git\|grep\|/bin' > commands.txt 
